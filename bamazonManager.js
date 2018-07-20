@@ -55,7 +55,7 @@ function startPrompt() {
             case 'Add to Inventory':
                 // add inventory
                 return addInventory().then(function () {
-                    console.log('Successfully added items');
+                    console.log('Great, your item has been added!');
                     return;
                 }).catch(function (err) {
                     console.log(err);
@@ -64,7 +64,7 @@ function startPrompt() {
             case 'Add New Product':
                 // add a new product
                 return addProduct().then(function () {
-                    console.log('Successfully added products');
+                    console.log('Great, your item has been added!');
                     return;
                 }).catch(function (err) {
                     console.log(err);

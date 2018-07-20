@@ -1,21 +1,22 @@
-Challenge #2: Manager View (Next Level)
-
-1. Create a new file called bamazonManager.js
-2. Once the user 
-
-
-List a set of menu options:
-View Products for Sale
-View Low Inventory
-Add to Inventory
-Add New Product
-If a manager selects View Products for Sale, the app should list every available item: the item IDs, names, prices, and quantities.
-If a manager selects View Low Inventory, then it should list all items with an inventory count lower than five.
-If a manager selects Add to Inventory, your app should display a prompt that will let the manager "add more" of any item currently in the store.
-If a manager selects Add New Product, it should allow the manager to add a completely new product to the store.
-
-
-
 Challenge #3: Supervisor View (Final Level)
 
+1. Modify the bamazonCustomer.js
+2. Make sure value is updated with each individual products total revenue from each sale.
 
+3. Also, make sure that when a customer purchases items from the store, the price 
+of the product multiplied by the quantity purchased is added to the product's product_sales column.
+
+4. Ensure my app still updates the inventory listed in the products column.
+
+5. Create a bamazonSupervisor.js file.
+
+6. When bamazonSupervisor.js is entered, display the following prompts:
+- View Product Sales by Department
+- Create New Department
+
+7. When 'View Product Sales by Department' is selected, display a summarized table with the following:
+- department_id
+- department_name
+- over_head_costs
+- product_sales
+- total_profit
