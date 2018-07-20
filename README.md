@@ -46,7 +46,7 @@ node bamazonManager.js
 First, you will be given four options to choose from.  
 Use the arrow keys to navigate.
 
-![Initial Manager](images/initial_manager.png)
+![Initial Manager](/images/initial_manager.png)
 
 Choice 1, will show you all products for sale.
 
