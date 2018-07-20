@@ -25,16 +25,16 @@ node bamazonCustomer.js
 You will first see a list of the available items and a prompt asking you which
 item you would like to purchase.
 
-![Initial Customer](/assets/images/initial_screen_customer.png)
+![Initial Customer](images/initial_screen_customer.png)
 
 You will then choose the quantity of the item you would like to purchase.  
 If there are sufficient quantities available, you will see a success message and your total cost.
 
-![Success Customer](assets/images/success_customer.png)
+![Success Customer](images/success_customer.png)
 
 If there are not sufficient quantities available, you will see a failure message.
 
-![Failure Customer](assets/images/failure_customer.png)
+![Failure Customer](images/failure_customer.png)
 
 ## Bamazon Manager
 
@@ -46,28 +46,28 @@ node bamazonManager.js
 First, you will be given four options to choose from.  
 Use the arrow keys to navigate.
 
-![Initial Manager](assets/images/initial_manager.png)
+![Initial Manager](images/initial_manager.png)
 
 Choice 1, will show you all products for sale.
 
-![First Choice Manager](assets/images/first_choice_manager.png)
+![First Choice Manager](images/first_choice_manager.png)
 
 Choice 2, will show you all of the products with a quantity of 5 or less.
 
-![Second Choice Manager](assets/images/second_choice_manager.png)
+![Second Choice Manager](images/second_choice_manager.png)
 
 Choice 3, allows you to add quantity to any product.  
 It will populate a list of all of the item names. 
 Use the arrow keys to navigate.
 
 
-![Third Choice Options Manager](assets/images/third_choice_options_manager.png)
+![Third Choice Options Manager](images/third_choice_options_manager.png)
 
 Then, enter the quantity you would like added to that product.
 
-![Third Choice Success Manager](assets/images/third_choice_success_manager.png)
+![Third Choice Success Manager](images/third_choice_success_manager.png)
 
 Choice 4, allows you to add a new item.  
 You will be asked for the ID, Name, Department, Price, and Quantity of the product you want added.
 
-![Fourth Choice Manager](assets/images/fourth_choice_manager.png)
+![Fourth Choice Manager](images/fourth_choice_manager.png)
