@@ -30,7 +30,7 @@ item you would like to purchase.
 You will then choose the quantity of the item you would like to purchase.  
 If there are sufficient quantities available, you will see a success message and your total cost.
 
-[Success Customer](https://github.com/danilarsen16/Bamazon-App/blob/master/images/success_customer.PNG)
+![Success Customer](https://github.com/danilarsen16/Bamazon-App/blob/master/images/success_customer.PNG)
 
 If there are not sufficient quantities available, you will see a failure message.
 
