@@ -1,6 +1,22 @@
+# Bamazon
+An Amazon like app, with functionality for both customers and managers.  
+Customers have the ability to purchase products from the storefront app.  
+While enabling Managers to view products for sale, view low inventory, add to inventory and add new products to the storefront.  
+
+## Technologies
+Node.js, MySQL, Javascript
+
+## Built with
+- Visual Code Studio
+- Javascript
+- Node.js - Backend
+- GitHub
+- MySQL - Database
+- Terminal - Runs node app
+
 ## Bamazon Customer
 
-To run this simply run:
+To begin, simply run:  
 
 ```
 node bamazonCustomer.js
@@ -24,8 +40,7 @@ message.
 
 ## Bamazon Manager
 
-To run this simply run:
-
+Next, simply run:  
 ```
 node bamazonManager.js
 ```
