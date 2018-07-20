@@ -16,7 +16,6 @@ var connection = mysql.createConnection({
 connection.connect(function (err) {
     if (err) throw err;
     // run start prompt
-    // `_res` is an unused param
     startPrompt().then(function (_res) {
         // once finished destroy connection
         connection.destroy();
@@ -178,14 +177,14 @@ function addProduct() {
     });
 }
 
-// generic print function to DRY things up
+// print function
 function printItems(items) {
     items.forEach(function (item) {
         console.log('Item ID: ' + item.item_id + ' | Product Name: ' + item.product_name + ' | Price: ' + item.price + ' | Quantity: ' + item.stock_quantity);
     });
 }
 
-// generic query function to DRY things up
+// query function
 function runQuery(query, values) {
     return new Promise(function (resolve, reject) {
         connection.query(query, values, function (err, res) {
