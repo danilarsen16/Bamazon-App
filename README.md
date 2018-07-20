@@ -25,7 +25,7 @@ node bamazonCustomer.js
 You will first see a list of the available items and a prompt asking you which
 item you would like to purchase.
 
-![Initial Customer](images/initial_screen_customer.png)
+![Initial Customer](./images/initial_screen_customer.png)
 
 You will then choose the quantity of the item you would like to purchase.  
 If there are sufficient quantities available, you will see a success message and your total cost.
